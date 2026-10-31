@@ -33,16 +33,18 @@ I design, build and run AI systems that have to work in production — from deep
 
 ### Featured projects
 
-Projects are being published here step by step. Each one is built on public data with production-style engineering: tests, containers, experiment tracking and deployment manifests.
+Each project uses public data or clearly fictional demo data, ships with tests and CI, and reports measured results together with its limitations.
 
-| Project | Focus | Status |
+| Project | What it shows | Stack |
 |---|---|---|
-| [**iot-anomaly-detection**](https://github.com/Isaac19911369/iot-anomaly-detection) | Deep-learning anomaly detection on multivariate sensor streams (SKAB benchmark), PyTorch autoencoders, FastAPI, TimescaleDB, MLflow | Live |
-| **predictive-maintenance-rul** | Remaining-useful-life forecasting on NASA C-MAPSS with PySpark features | Planned |
-| **enterprise-rag-assistant** | RAG + function calling + evaluation harness, pluggable LLM backends, Helm chart | Planned |
-| **llm-inference-platform** | LLM serving with NVIDIA NIM / Triton on Kubernetes: autoscaling, observability, load tests | Planned |
-| **multi-agent-azure-foundry** | Production-grade multi-agent solution on Azure AI Foundry | Planned |
-| **ml-physical-layer-security** | Reproducible ML for tamper detection and key generation from my PhD research | Planned |
+| [**enterprise-rag-assistant**](https://github.com/Isaac19911369/enterprise-rag-assistant) | Internal AI assistant: hybrid retrieval with document-level access control, function calling with human confirmation, prompt-injection and PII guardrails, evaluation harness | Python · FastAPI · NVIDIA NIM / Azure OpenAI · Helm |
+| [**multi-agent-azure-foundry**](https://github.com/Isaac19911369/multi-agent-azure-foundry) | Supervisor and specialist agents that triage an equipment alarm and raise a work order after human approval; least-privilege tools, budgets, OpenTelemetry traces, scenario evals | Microsoft Foundry · Entra ID · Bicep · OpenTelemetry |
+| [**llm-inference-platform**](https://github.com/Isaac19911369/llm-inference-platform) | Self-hosted LLM serving on Kubernetes GPUs: capacity planner, NIM/vLLM Helm chart, queue-depth autoscaling, SLO dashboards, load tester, ADRs | Kubernetes · Helm · NVIDIA NIM · vLLM · KEDA · Prometheus |
+| [**iot-anomaly-detection**](https://github.com/Isaac19911369/iot-anomaly-detection) | Deep-learning anomaly detection on industrial sensor streams (SKAB benchmark), calibrated alarms, scoring API | PyTorch · FastAPI · TimescaleDB · MLflow · Docker |
+| [**predictive-maintenance-rul**](https://github.com/Isaac19911369/predictive-maintenance-rul) | Remaining-useful-life prediction on NASA C-MAPSS; pandas and PySpark features with a parity test; Fabric Lakehouse notebook | LightGBM · PyTorch · PySpark · Microsoft Fabric · MLflow |
+| [**ml-physical-layer-security**](https://github.com/Isaac19911369/ml-physical-layer-security) | Companion to my PhD: CSI-based physical tamper detection and UWB channel-based secret key generation, fully reproducible | PyTorch · NumPy/SciPy · signal processing |
+
+**How they fit together:** *sense* (anomaly detection) → *predict* (RUL) → *decide and act* (multi-agent triage) → *assist people* (RAG assistant), all on a *platform* that serves the models (LLM inference platform).
 
 ### Experience
 
