@@ -37,7 +37,7 @@ Projects are being published here step by step. Each one is built on public data
 
 | Project | Focus | Status |
 |---|---|---|
-| **iot-anomaly-detection** | Deep-learning anomaly detection on multivariate sensor streams, MLflow, FastAPI, TimescaleDB | In progress |
+| [**iot-anomaly-detection**](https://github.com/Isaac19911369/iot-anomaly-detection) | Deep-learning anomaly detection on multivariate sensor streams (SKAB benchmark), PyTorch autoencoders, FastAPI, TimescaleDB, MLflow | Live |
 | **predictive-maintenance-rul** | Remaining-useful-life forecasting on NASA C-MAPSS with PySpark features | Planned |
 | **enterprise-rag-assistant** | RAG + function calling + evaluation harness, pluggable LLM backends, Helm chart | Planned |
 | **llm-inference-platform** | LLM serving with NVIDIA NIM / Triton on Kubernetes: autoscaling, observability, load tests | Planned |
