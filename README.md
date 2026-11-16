@@ -1,6 +1,6 @@
 # Dr. Eshagh Dehmollaian
 
-**Senior AI & Data Specialist** · PhD in Electronics & Information Technology · Linz, Austria
+**Senior Data & AI Specialist** · PhD in Electronics & Information Technology · Linz, Austria
 
 I design, build and run AI systems that have to work in production — from deep-learning anomaly detection on IoT data to enterprise AI assistants deployed on Kubernetes. My background combines a PhD in AI-driven wireless security, six years of applied ML research at JKU Linz, and hands-on telecom engineering at Huawei.
 
@@ -42,13 +42,14 @@ Each project uses public data or clearly fictional demo data, ships with tests a
 | [**llm-inference-platform**](https://github.com/Isaac19911369/llm-inference-platform) | Self-hosted LLM serving on Kubernetes GPUs: capacity planner, NIM/vLLM Helm chart, queue-depth autoscaling, SLO dashboards, load tester, ADRs | Kubernetes · Helm · NVIDIA NIM · vLLM · KEDA · Prometheus |
 | [**iot-anomaly-detection**](https://github.com/Isaac19911369/iot-anomaly-detection) | Deep-learning anomaly detection on industrial sensor streams (SKAB benchmark), calibrated alarms, scoring API | PyTorch · FastAPI · TimescaleDB · MLflow · Docker |
 | [**predictive-maintenance-rul**](https://github.com/Isaac19911369/predictive-maintenance-rul) | Remaining-useful-life prediction on NASA C-MAPSS; pandas and PySpark features with a parity test; Fabric Lakehouse notebook | LightGBM · PyTorch · PySpark · Microsoft Fabric · MLflow |
+| [**org-network-privacy**](https://github.com/Isaac19911369/org-network-privacy) | Privacy-preserving organisational network analytics: keyed pseudonyms, k-anonymous aggregate reports, communities and AI-adoption diffusion tested against planted ground truth | NetworkX · statsmodels · pandas · privacy engineering |
 | [**ml-physical-layer-security**](https://github.com/Isaac19911369/ml-physical-layer-security) | Companion to my PhD: CSI-based physical tamper detection and UWB channel-based secret key generation, fully reproducible | PyTorch · NumPy/SciPy · signal processing |
 
 **How they fit together:** *sense* (anomaly detection) → *predict* (RUL) → *decide and act* (multi-agent triage) → *assist people* (RAG assistant), all on a *platform* that serves the models (LLM inference platform).
 
 ### Experience
 
-- **Senior AI & Data Specialist** — CANCOM Austria AG *(2025 – now)*
+- **Senior Data & AI Specialist** — CANCOM Austria AG *(2025 – now)*
   Enterprise AI assistant, AI-driven forecasting / predictive maintenance, IoT anomaly detection, deployment architecture on HPE cloud and on-premise infrastructure
 - **Research Scientist** — Johannes Kepler University Linz *(2018 – 2024)*
   ML for wireless communication and security, centralized & decentralized deep learning, industrial research projects
